@@ -13,7 +13,6 @@ open IFF .
 -- fkcm1
 	:apply(tc)
     -- inv1
-    :apply(tc)
 
 	:def c1 = :ctf [R#Rand \in rands(nw(S#Sys)) .]
 
@@ -42,7 +41,6 @@ open IFF .
 -- fkrm1
 	:apply(tc)
     -- inv1
-    :apply(tc)
 
 	:def c3 = :ctf [C#Cipher \in ciphers(nw(S#Sys)) .]
 
